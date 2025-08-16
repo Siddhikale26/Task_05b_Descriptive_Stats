@@ -24,11 +24,6 @@ The project is split into two periods:
 
 ## 📊 Dataset Summary
 
-The dataset was manually extracted from the official SU Athletics page:  
-🔗 [2025 Women's Lacrosse Stats](https://cuse.com/sports/2013/1/16/WLAX_0116134638)
-
-> ❗ Note: The raw dataset is **not included** in this repository per project guidelines.
-
 A representative subset of 10 players was used with fields:
 - Games Played (GP)
 - Goals (G)
@@ -63,29 +58,6 @@ Each prompt was evaluated for:
 - Reasoning ability
 - Use of supporting stats
 
----
-
-## 📈 Visualizations (Optional / Ongoing)
-
-Planned visualizations:
-- Bar chart: Top 5 scorers
-- Pie chart: Shot distribution among top players
-- Line chart: Simulated team performance over 19 games
-
-These will be added to the `/scripts/` folder if completed.
-
----
-
-## 📁 Repository Structure
-
-```
-Task_05_Descriptive_Stats/
-├── prompts.md         ← All 10 questions, LLM answers, evaluations
-├── README.md          ← This file (project overview)
-├── scripts/           ← Optional Python/stat-checking/plotting scripts
-```
-
----
 
 ## ✅ Evaluation Summary
 
@@ -96,18 +68,5 @@ Task_05_Descriptive_Stats/
 | Creativity Handling    | 🟡 Moderate; better with guidance           |
 | Failure Cases          | ❗Hallucination when context was unclear     |
 
----
 
-## 📝 Submission Instructions
 
-- Repo Name: **Task_05_Descriptive_Stats**
-- Time Log Submitted:  
-  - ✅ July 31st  
-  - ⏳ August 15: [Submit Here](https://syracuseuniversity.qualtrics.com/jfe/form/SV_cDgnzM695AMx8d8)
-- Email Repo Link to: **jrstrome@syr.edu**
-
----
-
-## 🙋‍♂️ Reflections
-
-This task demonstrated the power and limits of LLMs in structured reasoning. While stats-based questions were handled well, abstract prompts required careful guidance. The experiment was successful in highlighting where prompt engineering is essential to achieving correct and meaningful answers from AI.
